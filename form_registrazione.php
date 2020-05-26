@@ -2,7 +2,7 @@
   $connessione = mysqli_connect("localhost","root","root","contatti");
 
   if($connessione){
-    echo "Sei connesso";
+    echo "STATUS DB: Connesso";
   }
 ?>
 
